@@ -1,0 +1,32 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Vendas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "usuarioEmail",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "descricao",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "VendasPagas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "emailCliente",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "dataHoraTransacao",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
